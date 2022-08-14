@@ -1,0 +1,65 @@
+{
+  // Python Settings
+  "python.defaultInterpreterPath": "venv/bin/python",
+  "python.formatting.provider": "none",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+  },
+  "python.linting.enabled": true,
+  "python.linting.lintOnSave": true,
+  "python.linting.pylintEnabled": false,
+  "python.linting.banditEnabled": true,
+  "python.linting.flake8Enabled": true,
+  "python.linting.flake8Args": ["--ignore=E501,E203,W503", "--verbose"],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "python.testing.pytestArgs": ["tests"],
+  "python.autoComplete.extraPaths": ["billion"],
+  "python.analysis.extraPaths": ["billion"],
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.completeFunctionParens": true,
+  "autoDocstring.docstringFormat": "numpy",
+  "notebook.breadcrumbs.showCodeCells": true,
+  "notebook.outline.showCodeCells": true,
+  // Javascript Settings
+  "[javascript|json|react]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // HTML and CSS Settings
+  "[html|css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // Markdown Settings
+  "markdown.preview.fontFamily": "'Cascadia Mono', -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'Ubuntu', 'Droid Sans', sans-serif",
+  // Editor Settings
+  "editor.fontFamily": "'JetBrains Mono', 'Cascadia Mono', 'Ubuntu Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "editor.fontLigatures": false,
+  "editor.fontSize": 16,
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  "editor.renderWhitespace": "all",
+  "editor.guides.indentation": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": false,
+    "source.fixAll.eslint": true,
+    "source.organizeImports": false
+  },
+  "workbench.colorCustomizations": {
+    "terminal.foreground": "#2A9D8F"
+  },
+  // Files Settings
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true,
+    "**/venv/**": true,
+    "**/web/static/vendor/**": true
+  },
+  "explorer.excludeGitIgnore":true,
+  // Others
+  "powermode.enabled": true,
+  "powermode.shake.intensity": 0,
+}
