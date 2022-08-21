@@ -284,6 +284,7 @@ If you want a more comprehensive list, go to [Awesome Python](https://github.com
     * [Mistune](https://github.com/lepture/mistune) - Fastest and full featured pure Python parsers of Markdown.
     * [Python-Markdown](https://github.com/waylan/Python-Markdown) - A Python implementation of John Gruber’s Markdown.
     * [Python-Markdown2](https://github.com/trentm/python-markdown2) - A fast and complete Python implementation of Markdown.
+    * [Marko](https://github.com/frostming/marko) - Marko is a markdown parser written in pure Python that complies with CommonMark's spec v0.30. It is designed to be highly extensible.
 * YAML
     * [PyYAML](https://github.com/yaml/pyyaml/) - YAML implementations for Python.
 * CSV
